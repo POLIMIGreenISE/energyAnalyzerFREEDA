@@ -131,7 +131,7 @@ requirements:
       common:
         subnet: [private]
         security: [ssl]
-        delay: 3
+        delay: 10
       flavour-specific:
         tiny: { cpu: 1, ram: 2, availability: 97 }
     recommendationservice:

@@ -1,100 +1,23 @@
-service comp0 large 633 vs old 1045
-service comp1 large 849 vs old 1401
-service comp10 large 83 vs old 137
-service comp11 large 386 vs old 638
-service comp12 large 61 vs old 102
-service comp13 large 988 vs old 1630
-service comp14 large 806 vs old 1330
-service comp15 large 952 vs old 1571
-service comp16 large 1071 vs old 1766
-service comp17 large 567 vs old 935
-service comp18 large 1039 vs old 1714
-service comp19 large 787 vs old 1298
-service comp2 large 687 vs old 1134
-service comp20 large 1089 vs old 1797
-service comp21 large 596 vs old 984
-service comp22 large 359 vs old 592
-service comp23 large 204 vs old 337
-service comp24 large 427 vs old 705
-service comp25 large 877 vs old 1447
-service comp26 large 220 vs old 364
-service comp27 large 875 vs old 1443
-service comp28 large 669 vs old 1103
-service comp29 large 316 vs old 522
-service comp3 large 1069 vs old 1764
-service comp30 large 542 vs old 895
-service comp31 large 773 vs old 1276
-service comp32 large 354 vs old 585
-service comp33 large 1075 vs old 1774
-service comp34 large 695 vs old 1146
-service comp35 large 964 vs old 1591
-service comp36 large 653 vs old 1077
-service comp37 large 976 vs old 1610
-service comp38 large 446 vs old 736
-service comp39 large 510 vs old 841
-service comp4 large 231 vs old 382
-service comp40 large 761 vs old 1255
-service comp41 large 191 vs old 315
-service comp42 large 92 vs old 153
-service comp43 large 302 vs old 499
-service comp44 large 694 vs old 1145
-service comp45 large 983 vs old 1622
-service comp46 large 975 vs old 1609
-service comp47 large 1051 vs old 1734
-service comp48 large 726 vs old 1198
-service comp49 large 254 vs old 420
-service comp5 large 405 vs old 669
-service comp50 large 248 vs old 409
-service comp51 large 684 vs old 1128
-service comp52 large 1071 vs old 1767
-service comp53 large 582 vs old 960
-service comp54 large 103 vs old 170
-service comp55 large 679 vs old 1121
-service comp56 large 585 vs old 965
-service comp57 large 351 vs old 580
-service comp58 large 702 vs old 1158
-service comp59 large 863 vs old 1424
-service comp6 large 939 vs old 1549
-service comp60 large 659 vs old 1088
-service comp61 large 345 vs old 570
-service comp62 large 590 vs old 974
-service comp63 large 763 vs old 1258
-service comp64 large 124 vs old 205
-service comp65 large 282 vs old 466
-service comp66 large 352 vs old 581
-service comp67 large 527 vs old 870
-service comp68 large 932 vs old 1538
-service comp69 large 553 vs old 913
-service comp7 large 534 vs old 882
-service comp70 large 685 vs old 1131
-service comp71 large 992 vs old 1637
-service comp72 large 357 vs old 590
-service comp73 large 918 vs old 1515
-service comp74 large 353 vs old 582
-service comp75 large 866 vs old 1428
-service comp76 large 165 vs old 273
-service comp77 large 820 vs old 1353
-service comp78 large 742 vs old 1224
-service comp79 large 226 vs old 374
-service comp8 large 436 vs old 720
-service comp80 large 898 vs old 1481
-service comp81 large 667 vs old 1101
-service comp82 large 102 vs old 169
-service comp83 large 281 vs old 464
-service comp84 large 757 vs old 1249
-service comp85 large 619 vs old 1021
-service comp86 large 267 vs old 441
-service comp87 large 565 vs old 932
-service comp88 large 709 vs old 1169
-service comp89 large 535 vs old 883
-service comp9 large 942 vs old 1554
-service comp90 large 1069 vs old 1764
-service comp91 large 500 vs old 826
-service comp92 large 213 vs old 352
-service comp93 large 662 vs old 1093
-service comp94 large 793 vs old 1309
-service comp95 large 252 vs old 417
-service comp96 large 495 vs old 817
-service comp97 large 722 vs old 1192
-service comp98 large 1080 vs old 1782
-service comp99 large 928 vs old 1531
+service frontend large 2832 vs old 1981
+service checkoutservice tiny 153 vs old 107
+service adservice tiny 321 vs old 251
+service recommendationservice large 770 vs old 539
+service productcatalogservice large 1264 vs old 989
+service cartservice tiny 698 vs old 546
+service shippingservice tiny 126 vs old 98
+service currencyservice tiny 1125 vs old 881
+service emailservice tiny 64 vs old 50
+link frontend large checkoutservice 0 vs old 7
+link frontend large adservice 0 vs old 7
+link frontend large recommendationservice 0 vs old 7
+link frontend large productcatalogservice 0 vs old 7
+link frontend large cartservice 0 vs old 7
+link frontend large shippingservice 0 vs old 7
+link frontend large currencyservice 0 vs old 7
+link checkoutservice tiny productcatalogservice 0 vs old 5
+link checkoutservice tiny cartservice 0 vs old 5
+link checkoutservice tiny shippingservice 0 vs old 5
+link checkoutservice tiny currencyservice 0 vs old 5
+link checkoutservice tiny paymentservice 0 vs old 5
+link checkoutservice tiny emailservice 0 vs old 5
+link recommendationservice large productcatalogservice 0 vs old 6

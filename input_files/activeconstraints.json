@@ -1,5 +1,17 @@
 [
-  {"module": "Avoid", "active": true, "template": "highConsumptionService({source},{flavour},{node},{weight})"},
-  {"module": "Affinity", "active": true, "template": "highConsumptionConnection({source},{source_flavour},{destination},{destination_flavour},{weight})"},
-  {"module": "Delay", "active": false, "template": "canbedelayed({source},{flavour},{delay})"}
+  {
+    "module": "Avoid",
+    "active": true,
+    "template": "highConsumptionService({source},{flavour},{node},{weight})"
+  },
+  {
+    "module": "Affinity",
+    "active": true,
+    "template": "highConsumptionConnection({source},{source_flavour},{destination},{destination_flavour},{weight})"
+  },
+  {
+    "module": "Delay",
+    "active": true,
+    "template": "canbedelayed({source},{flavour},{delay},{weight})"
+  }
 ]

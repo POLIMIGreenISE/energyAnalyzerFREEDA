@@ -18,6 +18,9 @@ suggested(affinity(d(C,FC),d(S,FS),W)) :-
 suggested(avoid(d(C,FC),N,W)) :-
     highConsumptionService(C,FC,N,W).
 
+suggested(delay(d(C,FC),H,W)) :-
+    canbedelayed(C,FC,H,W).
+
 write_results([], _).
 write_results([Constraint | Tail], Stream) :-
     format(Stream, '~q.~n', [Constraint]),

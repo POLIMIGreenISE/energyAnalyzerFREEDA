@@ -173,7 +173,8 @@ class ConstraintsGenerator:
             "energyMix": self.energyMix,
             "myapp": self.myapp,
             "maxThreshold": maxThreshold,
-            "monitorKepler": monitorKepler
+            "monitorKepler": monitorKepler,
+            "kepler": self.kepler
         }
 
         for constr in active_constraints:

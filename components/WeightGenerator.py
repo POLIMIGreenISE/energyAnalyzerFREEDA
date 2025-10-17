@@ -55,7 +55,6 @@ class WeightGenerator:
                 except KeyError as e:
                     print(f"Missing key for category '{category}': {e}")
 
-
         itemsToRemove = []
         for fact in self.prologFacts:
             if fact.startswith("high"):
@@ -66,5 +65,5 @@ class WeightGenerator:
                         itemsToRemove.append(fact)
         for fact in itemsToRemove:
             self.prologFacts.remove(fact)
-        
+            
         return self.prologFacts

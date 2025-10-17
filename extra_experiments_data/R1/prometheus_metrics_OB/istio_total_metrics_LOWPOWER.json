@@ -1,0 +1,142 @@
+[
+    {
+        "source": "checkoutservice",
+        "destination": "currencyservice",
+        "requestVolume": 1219.4861124293786,
+        "requestDuration": 1.915896048597259,
+        "requestSize": 51.52420772638375,
+        "requestThroughput": 0.3387534000313873,
+        "responseSize": 61.54081068497132,
+        "responseThroughput": 0.3387578883396108
+    },
+    {
+        "source": "checkoutservice",
+        "destination": "emailservice",
+        "requestVolume": 352.89998644067794,
+        "requestDuration": 2.3426043954925064,
+        "requestSize": 272.52733406116863,
+        "requestThroughput": 0.0980297903327056,
+        "responseSize": 64.13751302166544,
+        "responseThroughput": 0.09803108851224104
+    },
+    {
+        "source": "checkoutservice",
+        "destination": "paymentservice",
+        "requestVolume": 352.916393220339,
+        "requestDuration": 2.825554648061428,
+        "requestSize": 75.19000195420611,
+        "requestThroughput": 0.09803448587570619,
+        "responseSize": 105.4838994871843,
+        "responseThroughput": 0.09803581167608287
+    },
+    {
+        "source": "checkoutservice",
+        "destination": "productcatalogservice",
+        "requestVolume": 864.4531968926553,
+        "requestDuration": 1.2145408237862965,
+        "requestSize": 43.541488244804476,
+        "requestThroughput": 0.24013130547708725,
+        "responseSize": 197.51062694797758,
+        "responseThroughput": 0.24013469138418078
+    },
+    {
+        "source": "checkoutservice",
+        "destination": "shippingservice",
+        "requestVolume": 707.9020118644067,
+        "requestDuration": 1.2667074574743964,
+        "requestSize": 131.16796399295225,
+        "requestThroughput": 0.1966443228185813,
+        "responseSize": 68.45505459035385,
+        "responseThroughput": 0.19664714814814813
+    },
+    {
+        "source": "frontend",
+        "destination": "productcatalogservice",
+        "requestVolume": 24169.643335593217,
+        "requestDuration": 1.2261871498618566,
+        "requestSize": 42.980300005702766,
+        "requestThroughput": 6.713935018204645,
+        "responseSize": 221.01855080165535,
+        "responseThroughput": 6.714031191462649
+    },
+    {
+        "source": "frontend",
+        "destination": "recommendationservice",
+        "requestVolume": 6758.458716384182,
+        "requestDuration": 6.078332462032288,
+        "requestSize": 84.79889864764183,
+        "requestThroughput": 1.8773902521186439,
+        "responseSize": 74.7764190877249,
+        "responseThroughput": 1.877415566619586
+    },
+    {
+        "source": "frontend",
+        "destination": "shippingservice",
+        "requestVolume": 2069.18848700565,
+        "requestDuration": 1.3762670706073603,
+        "requestSize": 65.09094314354668,
+        "requestThroughput": 0.574787169648462,
+        "responseSize": 73.14812174139782,
+        "responseThroughput": 0.5747950787037037
+    },
+    {
+        "source": "frontend",
+        "destination": "adservice",
+        "requestVolume": 5392.343879661016,
+        "requestDuration": 2.7175064480286246,
+        "requestSize": 51.89396473416245,
+        "requestThroughput": 1.4979077818581292,
+        "responseSize": 147.368603052777,
+        "responseThroughput": 0.7489637729519776
+    },
+    {
+        "source": "checkoutservice",
+        "destination": "cartservice",
+        "requestVolume": 708.1818192090395,
+        "requestDuration": 3.1170539437569587,
+        "requestSize": 69.4993737012538,
+        "requestThroughput": 0.19672276726302576,
+        "responseSize": 69.94589987651514,
+        "responseThroughput": 0.19672526020087885
+    },
+    {
+        "source": "frontend",
+        "destination": "cartservice",
+        "requestVolume": 8528.761186440679,
+        "requestDuration": 3.2665199227336057,
+        "requestSize": 71.5131845800825,
+        "requestThroughput": 2.3672330570401625,
+        "responseSize": 72.30425500560467,
+        "responseThroughput": 2.367265616502579
+    },
+    {
+        "source": "frontend",
+        "destination": "checkoutservice",
+        "requestVolume": 353.7673654008439,
+        "requestDuration": 38.66978676526774,
+        "requestSize": 186.78391449297482,
+        "requestThroughput": 0.09827091920612596,
+        "responseSize": 281.2594365889336,
+        "responseThroughput": 0.09827216041568995
+    },
+    {
+        "source": "frontend",
+        "destination": "currencyservice",
+        "requestVolume": 23808.336824191276,
+        "requestDuration": 1.9878415888126681,
+        "requestSize": 44.946155040599606,
+        "requestThroughput": 6.613629215893108,
+        "responseSize": 106.92657602242046,
+        "responseThroughput": 6.6137313041100185
+    },
+    {
+        "source": "recommendationservice",
+        "destination": "productcatalogservice",
+        "requestVolume": 6754.630107344633,
+        "requestDuration": 1.2865744963880998,
+        "requestSize": 31.499858212093894,
+        "requestThroughput": 1.8763278415725049,
+        "responseSize": 818.0684366967463,
+        "responseThroughput": 1.8763526508160706
+    }
+]
